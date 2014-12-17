@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
     device/sony/flamingo/rootdir/system/etc/sap.conf:system/etc/sap.conf \
     device/sony/flamingo/rootdir/system/etc/sec_config:system/etc/sec_config \
     device/sony/flamingo/rootdir/init.yukon.dev.rc:root/init.yukon.dev.rc \
-    device/sony/flamingo/rootdir//fstab.yukon:root/fstab.yukon
+    device/sony/flamingo/rootdir/fstab.yukon:root/fstab.yukon
 
 # Product attributes
 PRODUCT_NAME := aosp_d2203
