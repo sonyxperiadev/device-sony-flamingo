@@ -26,6 +26,8 @@ PRODUCT_COPY_FILES += \
     device/sony/flamingo/rootdir/system/usr/idc/elan-touchscreen.idc:system/usr/idc/elan-touchscreen.idc \
     device/sony/flamingo/rootdir/system/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
     device/sony/flamingo/rootdir/system/etc/thermanager.xml:system/etc/thermanager.xml \
+    device/sony/flamingo/rootdir/system/etc/sensors_settings:system/etc/sensors_settings \
+    device/sony/flamingo/rootdir/system/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     device/sony/flamingo/rootdir/system/etc/sap.conf:system/etc/sap.conf \
     device/sony/flamingo/rootdir/system/etc/sec_config:system/etc/sec_config \
     device/sony/flamingo/rootdir/init.yukon.dev.rc:root/init.yukon.dev.rc \
