@@ -5,6 +5,12 @@ service tad_static /system/bin/tad_static /dev/block/platform/msm_sdcc.1/by-name
     socket tad stream 0660 system system
     class core
 
+#QCOM sensors
+service sensors /system/bin/sensors.qcom
+    class main
+    user root
+    group root
+
 #MAC setup
 service btnvtool /system/bin/btnvtool -I
     user root
