@@ -35,6 +35,9 @@ PRODUCT_COPY_FILES += \
     device/sony/flamingo/rootdir/init.yukon.dev.rc:root/init.yukon.dev.rc \
     device/sony/flamingo/rootdir/fstab.yukon:root/fstab.yukon
 
+PRODUCT_PACKAGES += \
+    keystore.msm8226
+
 # Product attributes
 PRODUCT_NAME := aosp_d2203
 PRODUCT_DEVICE := flamingo
