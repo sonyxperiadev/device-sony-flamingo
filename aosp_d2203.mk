@@ -12,6 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+KERNEL_DEFCONFIG := aosp_yukon_flamingo_defconfig
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
 
 # Include others
