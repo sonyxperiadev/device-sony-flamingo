@@ -35,7 +35,8 @@ PRODUCT_COPY_FILES += \
     device/sony/flamingo/rootdir/system/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     device/sony/flamingo/rootdir/system/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     device/sony/flamingo/rootdir/init.yukon.dev.rc:root/init.yukon.dev.rc \
-    device/sony/flamingo/rootdir/fstab.yukon:root/fstab.yukon
+    device/sony/flamingo/rootdir/fstab.yukon:root/fstab.yukon \
+    device/sony/flamingo/rootdir/init.flamingo.usb.rc:root/init.flamingo.usb.rc
 
 PRODUCT_PACKAGES += \
     keystore.msm8226
