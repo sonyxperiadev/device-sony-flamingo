@@ -13,7 +13,6 @@
 # limitations under the License.
 
 TARGET_KERNEL_CONFIG := aosp_yukon_flamingo_defconfig
-TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
 
 # Include others
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
