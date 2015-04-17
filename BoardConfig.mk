@@ -16,7 +16,8 @@ include device/sony/yukon/BoardConfig.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := D2203
 
-BOARD_KERNEL_CMDLINE += display_status=on
+BOARD_KERNEL_CMDLINE += display_status=on mem=883M
+#BOARD_KERNEL_CMDLINE += mem=128M@0 mem=755M@255M
 
 BOARD_SYSTEMIMAGE_PARTITION_SIZE   := 1782579200
 #Reserve space for data encryption (1879030784-16384)
