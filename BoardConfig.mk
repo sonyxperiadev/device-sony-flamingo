@@ -14,6 +14,8 @@
 
 include device/sony/yukon/BoardConfig.mk
 
+TARGET_RECOVERY_FSTAB = device/sony/flamingo/rootdir/fstab.yukon
+
 TARGET_BOOTLOADER_BOARD_NAME := D2203
 
 BOARD_KERNEL_CMDLINE += mem=883M
