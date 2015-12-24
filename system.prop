@@ -1,0 +1,24 @@
+# Disable invalid sensors
+ro.qualcomm.sensors.cmc=false
+ro.qualcomm.sensors.georv=false
+ro.qualcomm.sensors.pam=false
+ro.qualcomm.sensors.pedometer=false
+ro.qualcomm.sensors.qmd=false
+ro.qualcomm.sensors.scrn_ortn=false
+ro.qualcomm.sensors.smd=false
+ro.qc.sdk.sensors.gestures=false
+
+# Sensor debugging
+# Valid settings (and presumably what they mean):
+#   0      - off
+#   1      - all the things
+#   V or v - verbose
+#   D or d - debug
+#   E or e - errors
+#   W or w - warnings
+#   I or i - info
+
+persist.debug.sensors.hal=0
+debug.qualcomm.sns.daemon=0
+debug.qualcomm.sns.hal=0
+debug.qualcomm.sns.libsensor1=0
