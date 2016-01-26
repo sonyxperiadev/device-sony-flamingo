@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
     device/sony/flamingo/rootdir/system/etc/thermanager.xml:system/etc/thermanager.xml \
     device/sony/flamingo/rootdir/system/etc/sensors_settings:system/etc/sensors_settings \
     device/sony/flamingo/rootdir/system/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
-    device/sony/flamingo/rootdir/system/etc/sap.conf:system/etc/sap.conf \
     device/sony/flamingo/rootdir/system/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     device/sony/flamingo/rootdir/system/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     device/sony/flamingo/rootdir/init.yukon.dev.rc:root/init.yukon.dev.rc \
