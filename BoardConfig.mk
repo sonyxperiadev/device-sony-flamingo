@@ -16,8 +16,6 @@ include device/sony/yukon/BoardConfig.mk
 
 TARGET_RECOVERY_FSTAB = device/sony/flamingo/rootdir/fstab.yukon
 
-TARGET_SYSTEM_PROP += device/sony/flamingo/system.prop
-
 TARGET_BOOTLOADER_BOARD_NAME := D2203
 
 BOARD_SYSTEMIMAGE_PARTITION_SIZE   := 1782579200
