@@ -22,5 +22,10 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE   := 1782579200
 #Reserve space for data encryption (1879030784-16384)
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 1879014400
 
+<<<<<<< HEAD
 #BOARD_KERNEL_CMDLINE += mem=128M@0 mem=755M@255M
 BOARD_KERNEL_CMDLINE += mem=1003M
+=======
+BOARD_KERNEL_CMDLINE += androidboot.hardware=flamingo
+BOARD_KERNEL_CMDLINE += mem=1003M
+>>>>>>> 88e7cd6... move common bootimg to common
