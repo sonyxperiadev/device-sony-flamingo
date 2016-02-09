@@ -40,7 +40,7 @@ PRODUCT_PACKAGES += \
 
 # Device Init
 PRODUCT_PACKAGES += \
-    fstab.yukon \
+    fstab.flamingo \
     init.recovery.flamingo \
     init.flamingo \
     ueventd.flamingo
