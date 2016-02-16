@@ -27,6 +27,11 @@ PRODUCT_COPY_FILES := \
 PRODUCT_COPY_FILES += \
     device/sony/flamingo/rootdir/system/usr/idc/elan-touchscreen.idc:system/usr/idc/elan-touchscreen.idc
 
+# Device Specific Permissions
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
+    frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
+
 PRODUCT_PACKAGES += \
     keystore.msm8226
 
