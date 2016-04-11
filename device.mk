@@ -62,17 +62,6 @@ PRODUCT_PROPERTY_OVERRIDES := \
     ro.sf.lcd_density=240 \
     ro.usb.pid_suffix=1BC
 
-# Disable invalid sensors
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.qualcomm.sensors.cmc=false \
-    ro.qualcomm.sensors.georv=false \
-    ro.qualcomm.sensors.pam=false \
-    ro.qualcomm.sensors.pedometer=false \
-    ro.qualcomm.sensors.qmd=false \
-    ro.qualcomm.sensors.scrn_ortn=false \
-    ro.qualcomm.sensors.smd=false \
-    ro.qc.sdk.sensors.gestures=false
-
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/sony/yukon/platform.mk)
 $(call inherit-product, vendor/sony/yukon-flamingo/flamingo-vendor.mk)
