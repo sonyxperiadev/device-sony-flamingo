@@ -78,6 +78,7 @@
 		<mitigation level="2"><value resource="charge_speed">2</value></mitigation>
 		<mitigation level="3"><value resource="charge_speed">3</value></mitigation>
 		<mitigation level="4"><value resource="charge_speed">4</value></mitigation>
+		<mitigation level="5"><value resource="charge_speed">5</value></mitigation>
 	</control>
 
 	<control name="modem">
@@ -160,12 +161,15 @@
 			<mitigation name="charging" level="off" />
 		</threshold>
 		<threshold trigger="49000" clear="48000">
-			<mitigation name="charging" level="2" />
+			<mitigation name="charging" level="1" />
 		</threshold>
 		<threshold trigger="50000" clear="49000">
-			<mitigation name="charging" level="3" />
+			<mitigation name="charging" level="2" />
 		</threshold>
 		<threshold trigger="51000" clear="50000">
+			<mitigation name="charging" level="3" />
+		</threshold>
+		<threshold trigger="57000" clear="56000">
 			<mitigation name="charging" level="4" />
 		</threshold>
 	</configuration>
